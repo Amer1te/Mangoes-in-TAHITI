@@ -1,0 +1,36 @@
+
+.container {
+  height: 1450px; /* adjust the height as needed */
+}
+
+#header {
+margin-top: 0;
+margin-left: 15px;
+color: white;
+}
+
+#response {
+    display: none;
+    margin-left: 15px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+label {
+margin-left: 15px;
+color: white;
+}
+
+button {
+margin-left: 15px;
+margin-bottom: 20px;
+}
+
+.bottom-image {
+  position: absolute;
+  margin-top: 300px
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
+  }

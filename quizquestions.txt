@@ -1,0 +1,78 @@
+John = 1
+Uncle = 2
+Sadie = 3
+Charles = 4
+Micah = 5
+Arthur = 6
+Dutch = 7
+
+
+What horse breed do you choose?
+
+John - Hungarian Half-bred. Originally bred for competition, they exhibit strength and stamina and are prized by many.
+Dutch - Arabian. A superior breed. Fast and fancy, owned by wealthy nobility
+Uncle - Kentucky Saddler. A riding horse mainy used for riding short distances, poor speed and acceleration.
+Micah - Missouri Fox Trotter. Muscular build, graceful carriage with lightning fast speed and acceleration.
+Charles - Appaloosa. Work horse perfect for ranch work, they have a calm temper and reasonable speed and stamina.
+Sadie - Turkoman. Multiclass horses with characteristics of both race and war horses. They also have a temper and can be quite impatient.
+Arthur - Hungarian Half Bred. War horses renowned for their fealessness in battle.
+
+What is most important to you?
+
+Micah - Money
+Sadie - Revenge
+John - Family
+Charles - Peace
+Uncle - Relaxation
+Dutch - Loyalty and faith
+Arthur - Helping others
+
+It's the weekend, what do you do?
+
+Arthur - Go to a bar
+Charles - Spend time in nature
+Micah - Research crypto-currency, anything for money
+Uncle - Absolutely nothing, spend the whole weekend on the couch
+John - Hang out with family
+Sadie - Fencing club
+Dutch - Make some plans
+
+You're at the bar, what do you order?
+
+Micah - Straight spirits, you want a bar fight too
+Dutch - Mango cocktail
+Sadie - Red wine
+John - Zero alcohol beer
+Charles - Soda or juice
+Uncle - Whatever's cheapest, you're extremely broke
+Arthur - Plain old whiskey
+
+What's your favourite animal?
+
+Arthur - Whitetail Deer
+Charles - Bison
+Uncle - Raccoon
+Dutch - Lion
+Sadie - Black Widow Spider
+Micah - Snake
+John - Wolf
+
+Your best friend is in danger, what do you do?
+
+Sadie - Endanger whoever you have to as long as you can save them.
+Uncle - Get someone else to save them
+Charles - See if there is a peaceful way to resolve this
+John - Make sure everyone else is safe before rescuing them
+Dutch - Make a rescue plan
+Arthur - Run in without much care for your own safety
+Micah - Walk away, your safety is more important then theirs
+
+John = 1
+Uncle = 2
+Sadie = 3
+Charles = 4
+Micah = 5
+Arthur = 6
+Dutch = 7
+
+

@@ -1,0 +1,217 @@
+<!-- Quiz -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Character Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="stylequiz.css">
+	<link rel="icon" href="icons/Arthur.ico" type="image/x-icon">
+</head>
+<body>
+	<nav class="nav">
+		<a href="#" class="logo"><img src="icons/navlogo.png" alt="navlogo"></a>
+		<ul>
+			<li><a href="index.html">Home Page</a></li>
+ 			<li><a href="gang.html">The Dutch Van Der Linde Gang</a></li>
+ 			<li><a href="Micah.html">Villians</a></li>
+ 			<li><a href="Quiz.html" class="active">Which RDR2 character are you?</a></li>
+ 			<li><a href="chapters.html">Chapters</a></li>
+ 		<ul>
+	</nav>
+<div class="container">
+<div id="main">
+<div id="header"><h1>Which Red Dead Redemption 2 Character are You?</h1>
+
+<form  id="form1">
+	<p>What horse breed do you choose?</p>
+
+		<label><input type="radio" name="horse" id="thoroughbred" value="John" />Thoroughbred horses are renowned for their speed and agility. An excellent race horse.</label> <br>
+
+		<label><input type="radio" name="horse" id="arabian" value="Dutch" />Arabian. A superior breed. Fast and fancy, owned by wealthy nobility</label> <br>
+
+		<label><input type="radio" name="horse" id="kentucky saddler" value="Uncle" />Kentucky Saddler. A riding horse mainy used for riding short distances, poor speed and acceleration.</label> <br>
+
+		<label><input type="radio" name="horse" id="missouri fox trotter" value="Micah" />Missouri Fox Trotter. Muscular build, graceful carriage with lightning fast speed and acceleration.</label> <br>
+
+		<label><input type="radio" name="horse" id="appaloosa" value="Charles" />Appaloosa. Work horse perfect for ranch work, they have a calm temper and reasonable speed and stamina.</label> <br>
+
+		<label><input type="radio" name="horse" id="turkoman" value="Sadie" />Turkoman. Multiclass horses with characteristics of both race and war horses. They also have a temper and can be quite impatient.</label> <br>
+
+		<label><input type="radio" name="horse" id="hungarian halfbred" value="Arthur" />Hungarian Half Bred. War horses renowned for their fealessness in battle. Originally bred for competition, they exhibit strength and stamina and are prized by many.</label> <br>
+
+	<br>
+	<p>What is most important to you?</p>
+
+		<label><input type="radio" name="important" id="moneh" value="Micah" />Money</label><br>
+
+		<label><input type="radio" name="important" id="revenge" value="Sadie" />Revenge</label><br>
+
+		<label><input type="radio" name="important" id="family" value="John" />Family</label><br>
+
+		<label><input type="radio" name="important" id="peace" value="Charles" />Peace</label><br>
+
+		<label><input type="radio" name="important" id="relaxation" value="Uncle" />Relaxation</label><br>
+
+		<label><input type="radio" name="important" id="faith" value="Dutch" />Loyalty and Faith</label><br>
+
+		<label><input type="radio" name="important" id="others" value="Arthur" />Helping others</label><br>
+
+ 	<br>
+	<p>It's the weekend, what do you do?</p>
+
+		<label><input type="radio" name="weekend" id="bar" value="Arthur" />Go to the local bar</label><br>
+
+		<label><input type="radio" name="weekend" id="nature" value="Charles" />Spend some time in nature</label><br>
+
+		<label><input type="radio" name="weekend" id="crypto" value="Micah" />Research crypto-currency, anything for money</label><br>
+
+		<label><input type="radio" name="weekend" id="nothing" value="Uncle" />Absolutely nothing, spend the whole weekend on the couch</label><br>
+
+		<label><input type="radio" name="weekend" id="family2" value="John" />Hang out with family</label><br>
+
+		<label><input type="radio" name="weekend" id="community" value="Sadie" />See what's going on in the community</label><br>
+
+		<label><input type="radio" name="weekend" id="plans" value="Dutch" />You already have a plan</label><br>
+
+	<br>
+	<p>You're at the bar, what do you order?</p>
+
+		<label><input type="radio" name="bar" id="spirit" value="Micah" />Straight spirits, you're looking for a bar fight too</label><br>
+
+		<label><input type="radio" name="bar" id="mango" value="Dutch" />Mango cocktail</label><br>
+
+		<label><input type="radio" name="bar" id="wine" value="Sadie" />Red wine</label><br>
+
+		<label><input type="radio" name="bar" id="beer" value="John" />Zero alcohol beer</label><br>
+
+		<label><input type="radio" name="bar" id="soda" value="Charles" />Soda or juice</label><br>
+
+		<label><input type="radio" name="bar" id="cheap" value="Uncle" />Whatever's cheapest, you're extremely broke</label><br>
+
+		<label><input type="radio" name="bar" id="whiskey" value="Arthur" />Plain old whiskey</label><br>
+
+	<br>
+	<p>What's your favourite animal?</p>
+
+		<label><input type="radio" name="animal" id="deer" value="Arthur" />Whitetail Deer</label><br>
+
+		<label><input type="radio" name="animal" id="bison" value="Charles" />Bison</label><br>
+
+		<label><input type="radio" name="animal" id="raccoon" value="Uncle" />Raccoon</label><br>
+
+		<label><input type="radio" name="animal" id="lion" value="Dutch" />Lion</label><br>
+
+		<label><input type="radio" name="animal" id="spooder" value="Sadie" />Black Widow Spider</label><br>
+
+		<label><input type="radio" name="animal" id="snake" value="Micah" />Snake</label><br>
+
+		<label><input type="radio" name="animal" id="wolf" value="John" />Wolf</label><br>
+
+	<br>
+	<p>Your best friend is in danger, what do you do?</p>
+
+		<label><input type="radio" name="friend" id="endanger" value="Sadie" />Endanger whoever you have to as long as you can save them.</label><br>
+
+		<label><input type="radio" name="friend" id="else" value="Uncle" />Get someone else to save them</label><br>
+
+		<label><input type="radio" name="friend" id="peaceful" value="Charles" />See if there is a peaceful way to resolve this</label><br>
+
+		<label><input type="radio" name="friend" id="safe" value="John" />Make sure everyone else is safe before rescuing them</label><br>
+
+		<label><input type="radio" name="friend" id="plan" value="Dutch" />Make a rescue plan</label><br>
+
+		<label><input type="radio" name="friend" id="run" value="Arthur" />Run in without much care for your own safety</label><br>
+
+		<label><input type="radio" name="friend" id="away" value="Micah" />Walk away, your life is more important then theirs</label><br>
+
+<br><br>
+<button type="submit" value="Submit">Submit</button>
+</form>
+</div>
+
+<p id="response">You are <span id="answer"></span></p>
+
+
+</div>
+<script>
+	document.getElementById("form1").onsubmit=function() {
+	   //displays the response DOM element
+    document.getElementById("response").style.display = "block";
+
+    //resets the DOM element on submit
+    document.getElementById("answer").innerHTML = "";
+
+	  horse = document.querySelector('input[name = "horse"]:checked').value;
+
+	  important = document.querySelector('input[name = "important"]:checked').value;
+
+	  weekend = document.querySelector('input[name = "weekend"]:checked').value;
+
+	  bar = document.querySelector('input[name = "bar"]:checked').value;
+
+	  animal = document.querySelector('input[name = "animal"]:checked').value;
+
+	  friend = document.querySelector('input[name = "friend"]:checked').value;
+
+	  // initialize score variables
+	  John = 0;
+	  Uncle = 0;
+	  Sadie = 0;
+	  Charles = 0;
+	  Micah = 0;
+	  Arthur = 0;
+	  Dutch = 0;
+
+	  //function to calculate score for each question
+	  function eachscore(x){
+	  if(x == "John") { John = John + 1}
+	  if(x == "Uncle") { Uncle = Uncle + 1}
+	  if(x == "Sadie") { Sadie = Sadie + 1}
+	  if(x == "Charles") { Charles = Charles + 1}
+	  if(x == "Micah") { Micah = Micah + 1}
+	  if(x == "Arthur") { Arthur = Arthur + 1}
+	  if(x == "Dutch") { Dutch = Dutch + 1}
+	  }
+	  // for the above function, you could also change the 1 to a variable so you could give more points for certain questions
+
+	  //call function for each question
+	  eachscore(eval("horse"));
+	  eachscore(eval("important"));
+	  eachscore(eval("weekend"));
+	  eachscore(eval("bar"));
+	  eachscore(eval("animal"));
+	  eachscore(eval("friend"));
+
+	  all = [John, Uncle, Sadie, Charles, Micah, Arthur, Dutch];
+
+	//get the max score  in the array
+	maxscore = Math.max.apply(Math,all);
+
+    // object holding scores and feedback
+    scores = [{index:0, feedback: "John"},
+    {index:1, feedback: "Uncle"},
+    {index:2, feedback: "Sadie"},
+    {index:3, feedback: "Charles"},
+    {index:4, feedback: "Micah"},
+    {index:5, feedback: "Arthur"},
+    {index:6, feedback: "Dutch"}];
+
+
+    //figure out which index # holds the max score
+	for(i=0; i<all.length; i++) {
+	if(all[i]==maxscore) {
+    //this gets one answer, the last one it encounters with a match
+    document.getElementById("answer").innerHTML = scores[i].feedback;
+
+    //this version would allow for appending multiple answers; replace statement above
+    //document.getElementById("answer").innerHTML += scores[i].feedback + "; ";
+	}
+	}
+
+return false; // required to not refresh the page; just leave this here
+	   }// end the submit function
+
+</script>
+	<img src="images/banner.png" alt="banner" class="bottom-image">
+</body>
+</html>

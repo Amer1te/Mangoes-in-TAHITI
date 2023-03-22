@@ -1,0 +1,120 @@
+/*CSS FOR THE INDEX PAGE*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.text { /*Text will only take up half the page, in this case the left half*/
+  width: 45%; 
+  margin-left: 20px; /*adds space on the left of the text so it doesn't touch the side*/
+}
+
+h1 {
+  font-family: "Bodoni MT", serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Georgia", serif;
+  font-size: 22px;
+}
+
+p:nth-of-type(2) { /*nth-of-type give the ability to select individual paragraphs (allows you to select elements that are the nth child of their parent element) */
+  font-size: 18px;
+}
+
+.image { /*Image will only take up half the page, in this case the right half*/
+  width: 45%; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 20px; /*adds space on the right of the image so it doesn't touch the side*/
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.text2 { /*Text will only take up half the page, in this case the left half*/
+  width: 45%; 
+  margin-left: 20px; /*adds space on the left of the text so it doesn't touch the side*/
+  margin-right: 25px;
+}
+
+h2 {
+  font-family: "Bodoni MT", serif;
+  font-size: 30px;
+}
+
+p:nth-of-type(3) { /*nth-of-type give the ability to select individual paragraphs (allows you to select elements that are the nth child of their parent element) */
+  font-family: "Georgia", serif;
+  font-size: 22px;
+}
+
+.image2 { /*Image will only take up half the page, in this case the right half*/
+  width: 45%; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 20px; /*adds space on the right of the image so it doesn't touch the side*/
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.text3 { /*Text will only take up half the page, in this case the left half*/
+  width: 45%; 
+  margin-left: 20px; /*adds space on the left of the text so it doesn't touch the side*/
+}
+
+h3 {
+  font-family: "Bodoni MT", serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Georgia", serif;
+  font-size: 22px;
+}
+
+.image3 { /*Image will only take up half the page, in this case the right half*/
+  width: 45%; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 100px 20px; /*adds space on the right of the image so it doesn't touch the side*/
+  margin-bottom: 50px
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom-image {
+  position: absolute;
+  margin-top: 300px
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
+  }
